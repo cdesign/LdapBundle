@@ -1,0 +1,27 @@
+{
+    "name": "cdesign/ldap-bundle",
+    "type": "symfony-bundle",
+    "description": "Ldap Authentication/User Provider Bundle for Symfony",
+    "keywords": [ "ldap", "active directory" ],
+    "homepage": "https://www.christensendesign.net/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Christensen",
+            "email": "john@christensendesign.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.4"
+    },
+    "autoload": {
+        "psr-4": { "CDesign\\LdapBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

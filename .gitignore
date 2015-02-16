@@ -1,0 +1,10 @@
+#PHPStorm
+.idea
+
+#Backups
+_*
+
+#Mac finder data (Desktop Services Store)
+.DS_Store
+
+#-- END --
