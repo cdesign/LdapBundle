@@ -2,8 +2,8 @@ services:
     ldap_authenticator:
         class: CDesign\LdapBundle\Ldap\LdapAuthenticator
         arguments:
-            container:      @service_container
-            encoderFactory: @security.encoder_factory
+            container:      '@service_container'
+            encoderFactory: '@security.encoder_factory'
 
     ldap_userprovider:
         class: CDesign\LdapBundle\Ldap\LdapUserProvider
